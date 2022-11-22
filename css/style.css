@@ -5,24 +5,30 @@
     --first-title-color:#FFFFFF;
     --second-title-color:#212121;
     --btn-color:#FFFFFF;
+    --first-background-color:#2F303A;
+    --comand-background-color:#FFFFFF;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     color: #212121;
 }
+
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
 }
+
 .header-nav{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -30,9 +36,11 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+
 .first-logo {
     color: var(--accent-color);
 }
+
 .header-first-logo {
     color: var(--header-color-normal);
 }
@@ -40,15 +48,122 @@ body {
 .header-first-link{
     color: var(--header-color-normal);
 }
+
 .header-first-link:hover,
 .header-first-link:focus{
     color: var(--accent-color);
 }
+
 .header-contact-link{
     color: var(--text-color-normal);
 }
+
 .header-contact-link:hover,
 .header-contact-link:focus{
     color: var(--accent-color);
+}
+
+.main-section{
+    background: var(--first-background-color);
+}
+
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--first-title-color);
+}
+
+.main-btn{
+
+    background: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--btn-color);
+}
+
+.second-section-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+}
+
+.second-section-paragraf{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color-normal);
+}
+
+.fourth-section{
+    background: #F5F4FA;
+}
+
+.normal-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
+
+.comand-list{
+    background: var(--comand-background-color);
+}
+
+.name-comand{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
+
+.profession-comand{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color-normal);
+}
+
+.footer{
+    background: var(--first-background-color);
+}
+
+.footer-logo{
+    color: var(--first-title-color);
+}
+
+.footer-contact{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-address{
+    color: var(--first-title-color);
+}
+
+.footer-contact-link{
+   
+    color: rgba(255, 255, 255, 0.6);
 }
 /* line-height=line-height/font-size */
