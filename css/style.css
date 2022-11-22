@@ -79,7 +79,7 @@ body {
 }
 
 .main-btn{
-
+    font-family: inherit;
     background: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
@@ -89,6 +89,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--btn-color);
+    cursor: pointer;
 }
 
 .second-section-title{
@@ -100,7 +101,6 @@ body {
 }
 
 .second-section-paragraf{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -124,7 +124,6 @@ body {
 }
 
 .comand{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -147,7 +146,6 @@ body {
 
 .footer-contact{
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -161,4 +159,51 @@ body {
    
     color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-contact-link:hover,
+.footer-contact-link:focus{
+    color: var(--accent-color);
+}
 /* line-height=line-height/font-size */
+
+/* Portfolio */
+
+.portfolio-btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+    border-color: #F5F4FA;
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.portfolio-item-box{
+    background: var(--comand-background-color);
+    border: 1px solid var(--comand-background-color);
+}
+.portfolio-item{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.porfolio-item-type{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-color-normal);
+}
