@@ -7,11 +7,12 @@
     --btn-color:#FFFFFF;
     --first-background-color:#2F303A;
     --comand-background-color:#FFFFFF;
+    --main-color:#212121;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .list {
@@ -45,9 +46,9 @@ body {
     color: var(--header-color-normal);
 }
 
-.header-first-link{
+/* .header-first-link{
     color: var(--header-color-normal);
-}
+} */
 
 .header-first-link:hover,
 .header-first-link:focus{
@@ -96,7 +97,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--second-title-color);
 }
 
 .second-section-paragraf{
@@ -117,28 +117,23 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--second-title-color);
 }
 
 .comand-list{
     background: var(--comand-background-color);
 }
 
-.name-comand{
+.comand{
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--second-title-color);
 }
 
 .profession-comand{
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: var(--text-color-normal);
 }
 
