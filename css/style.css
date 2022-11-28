@@ -9,6 +9,7 @@
     --comand-background-color:#FFFFFF;
     --main-color:#212121;
     --typical-gap: 94px;
+    --typical-second-gap: 24px;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -155,7 +156,7 @@ body {
     height: 50px;
     min-width: 216px;
     border-radius: 4px;
-    border-color: var(--accent-color);
+    border: 0;
 }
 
                  /* second-section */
@@ -311,11 +312,14 @@ body {
 
 .portfolio-first-list{
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio-btn{
     font-family: inherit;
     font-weight: 500;
+    height: 38px;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
@@ -323,21 +327,41 @@ body {
     color: var(--main-color);
     background: #F5F4FA;
     border-radius: 4px;
-    border-color: #F5F4FA;
+    border: 0;
     cursor: pointer;
+    margin-right: 8px;
+    padding: 0 22px;
+}
+
+.portfolio-first-list:last-child{
+    margin-right: 0;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus{
     background: var(--accent-color);
     border-color: var(--accent-color);
+    color: var(--btn-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-second-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
 }
 
 .portfolio-item-box{
     background: var(--comand-background-color);
     border: 1px solid var(--comand-background-color);
     margin-bottom: 30px;
+    width: calc(100% / 3 - 30px);
+    margin-right: 30px;
+    border: 1px solid #EEEEEE;
+    padding-bottom: 20px;
+    border-top: 0;
 }
+
 .portfolio-item{
     font-weight: 700;
     font-size: 18px;
@@ -346,6 +370,7 @@ body {
     color: var(--main-color);
     margin-top: 20px;
     margin-bottom: 4px;
+    margin-left: var(--typical-second-gap);
 }
 
 .porfolio-item-type{
@@ -354,4 +379,5 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--text-color-normal);
+    margin-left: var(--typical-second-gap);
 }
